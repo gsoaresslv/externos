@@ -26,14 +26,8 @@ def main():
             y = float(input("Insira o valor de Y: "))
             b = float(input("Insira o valor de B: "))
             x = float(input("Insira o valor de X: "))
-            y = a*x+b
-            a = b*x-y
+            a=(y-b)/x
             print(f'O valor de A é = {a}')
-            
-            '''
-            PRECISA SER CONCERTADO
-            '''
-            
         elif(f == "b" or f == "B"):
             a = float(input("Insira o valor de A: "))
             x = float(input("Insira o valor de X: "))
